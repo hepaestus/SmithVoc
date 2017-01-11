@@ -11,11 +11,18 @@ SmithVoc Class Materials
 * Create GitHub.Com Account http://github.com
 * Create Public Repository (username.git.io)
 
-## HTML
+## HTML5 Bootstrap 
 * Tags and hypertext
-* 
+* Proper Syntax
+* Bootstrap http://getbootstrap.com/getting-started/
+
 ## CSS 
 * Cascading Style Sheets
 * Selectors 
 * Attributes
+
+## Javascript/JQuery
+* CDN Install
+* Javascript basics?
+
 
