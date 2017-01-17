@@ -1,25 +1,27 @@
 # SmithVoc
 SmithVoc Class Materials
-
-* Git/Github Code Management
+* Text Editor https://atom.io/
+* Git/Github Code Management  http://desktop.github.com
 * HTML5
-* Bootstrap HTML
+* Bootstrap http://getbootstrap.com/
 * CSS
-* JavaScript/Jquery
+* JavaScript/Jquery http://jquery.com
 
 ## Git/Github Codemanagement
 * Create GitHub.Com Account http://github.com
 * Create Public Repository (username.git.io)
+* Create your own github web page
 
 ## HTML5 Bootstrap 
 * Tags and hypertext
 * Proper Syntax
-* Bootstrap http://getbootstrap.com/getting-started/
+* Bootstrap http://getbootstrap.com/getting-started/ 
+* Bootstrap install
 
 ## CSS 
 * Cascading Style Sheets
 * Selectors 
-* Attributes
+* Declarations
 
 ## Javascript/JQuery
 * CDN Install
