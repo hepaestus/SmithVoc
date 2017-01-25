@@ -5,7 +5,7 @@
 * Sublime Text http://www.sublimetext.com/
 * Vim http://www.vim.org/
 # Browser
-* Chrome 
+* Chrome
 * Firefox
-# Git https://git-scm.com/
+* Git https://git-scm.com/
 
