@@ -27,4 +27,7 @@ SmithVoc Class Materials
 * CDN Install
 * Javascript basics?
 
-
+## Glossary Of Terms
+* Tag
+* Attribute
+* Add more...
