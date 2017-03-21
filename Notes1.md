@@ -9,4 +9,7 @@
 * Chrome
 * Firefox
 * Git https://git-scm.com/
+# Browser Tools
+* https://jsfiddle.net/
+* https://codepen.io/
 
