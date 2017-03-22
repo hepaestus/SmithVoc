@@ -1,4 +1,6 @@
 # SmithVoc
+* peteolsen@gmail.com
+
 SmithVoc Class Materials
 * Text Editor https://atom.io/
 * Git/Github Code Management  http://desktop.github.com
@@ -8,6 +10,7 @@ SmithVoc Class Materials
 * JavaScript/Jquery http://jquery.com
 
 ## Git/Github Codemanagement
+* Hello World Guide: https://guides.github.com/activities/hello-world/
 * Create GitHub.Com Account http://github.com
 * Create Public Repository (username.git.io)
 * Create your own github web page
@@ -16,7 +19,6 @@ SmithVoc Class Materials
 * Tags and hypertext
 * Proper Syntax
 * Bootstrap http://getbootstrap.com/getting-started/ 
-* Bootstrap install
 
 ## CSS 
 * Cascading Style Sheets
@@ -27,7 +29,12 @@ SmithVoc Class Materials
 * CDN Install
 * Javascript basics?
 
+## Online Tools
+* https://dummyimage.com/
+* http://c9.io -- Online Dev Tool! 
+
 ## Glossary Of Terms
-* Tag
-* Attribute
-* Add more...
+* Tag - Ex. <html></html> or <p></p>
+* Attribute -- Ex Class is the atttribute of the paragraph tag <p class="foobar"></p>
+* Selector --
+* Declaration -- 
