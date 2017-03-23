@@ -31,10 +31,7 @@ SmithVoc Class Materials
 
 ## Online Tools
 * https://dummyimage.com/
-* http://c9.io -- Online Dev Tool! 
-
-## Glossary Of Terms
-* Tag - Ex. <html></html> or <p></p>
-* Attribute -- Ex Class is the atttribute of the paragraph tag <p class="foobar"></p>
-* Selector --
-* Declaration -- 
+* http://c9.io -- Online Dev Tool!
+* http://www.bootply.com
+* https://jsfiddle.net/
+ 
