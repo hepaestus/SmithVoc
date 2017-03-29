@@ -35,3 +35,7 @@ SmithVoc Class Materials
 * http://www.bootply.com
 * https://jsfiddle.net/
  
+## Git Commands
+* git status
+* git commit -m "commit message" filename.ext
+* git push origin master

@@ -1,7 +1,7 @@
---<!DOCTYPE HTML>-
+<!DOCTYPE HTML>-
 <html>
   <head>
-    <title>Smith Voc - Web Development</title>
+    <title>Smith Voc - Web Development Class</title>
     <meta/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -9,48 +9,46 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   
-    <style>
-      .media-object { border: 5px dotted red; }
-      
-    </style>
-  
-  
   </head>
   <body>
-    <h1>Peter Edward Olsen III</h1>
-    <h2>Computer Nerd</h2>
-    <address>
-      380 South St.<br/>
-      Northampton, MA<br/>
-      01060<br/>
-      978-761-3474<span class="glyphicon glyphicon-apple"></span>
-    </address>
-    
     <div class="container">
-      <div class="media">
-        <div class="media-left">
-          <a href="http://apple.com/">
-            <img class="media-object" src="https://dummyimage.com/50x50/a128a1/e0c0e0.png&text=Apple" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Apple</h4>
-          <p>I invented the iphone but nobody believes me</p>
+    <div class="header">Peter E. Olsen III<small> a resume</small></div>
+    
+    <section id="work-history">
+      <div class="employer">
+        <div class="employer-name">Odyssey Consulting Systems Ltd.</div>
+        <div class="employer-location">Wakefield, MA</div>
+        <div class="start-date">March 2016</div>
+        <div class="end-date">Present</div>
+        <div class="job-description">
+          <div class="job-title">Developer/Systems Admin</div>
+          <ul>
+            <li>Google Systems Administrator</li>
+            <li>Google Cloud Administrator</li>
+          </ul>
         </div>
       </div>
       
-      <div class="media">
-        <div class="media-left media-top">
-          <a href="#">
-            <img class="media-object" src="https://dummyimage.com/50x50/a128a1/e0c0e0.png&text=Apple" alt="...">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Apple</h4>
-          <p>I invented the iphone but nobody believes me</p>
-        </div>
-      </div>
-    </div><!-- /.container -->
+    </section>
     
+    <section id="education">
+      <div class="school">University of New Mexico Albuquerque</div>
+      
+    </section>
+    
+      <section id="contact-info">
+        <div class="vcard"> 
+          <div class="adr"> 
+            <div class="street-address">380 South St.</div> 
+            <div class="locality">Northampton, MA</div>  
+            <div class="postal-code">01060</div > 
+            <div class="country-name">USA</div > 
+          </div> <!-- /.adr -->
+          <div class="tel">Tel: +1 978 761 3474</div> 
+          <div class="email">Email: peteolsen@gmail.com</div> 
+        </div><!-- /.vcard -->
+      </section>
+      
+    </div><!-- /.container -->
   </body>
 </html>
