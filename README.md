@@ -1,7 +1,7 @@
 # SmithVoc
 * peteolsen@gmail.com
 
-SmithVoc Class Materials
+## SmithVoc Class Materials
 * Text Editor https://atom.io/
 * Git/Github Code Management  http://desktop.github.com
 * HTML5
@@ -14,6 +14,7 @@ SmithVoc Class Materials
 * Create GitHub.Com Account http://github.com
 * Create Public Repository (username.git.io)
 * Create your own github web page
+    * https://pages.github.com/ 
 
 ## HTML5 Bootstrap 
 * Tags and hypertext
@@ -22,8 +23,15 @@ SmithVoc Class Materials
 
 ## CSS 
 * Cascading Style Sheets
-* Selectors 
-* Declarations
+* Selectors : find elements in your web page
+    * tag names eg. "img"
+    * class name eg. ".foobar"
+    * id name eg. "#foo"
+* Declarations : do stuff to those elements
+    * border: 1px solid red;
+* examples:
+    * img { margin:3px; border: 2px solid red; }
+    * #foo { position: relative; top: -20px; }
 
 ## Javascript/JQuery
 * CDN Install
@@ -34,8 +42,28 @@ SmithVoc Class Materials
 * http://c9.io -- Online Dev Tool!
 * http://www.bootply.com
 * https://jsfiddle.net/
+* https://codepen.io
  
 ## Git Commands
-* git status
-* git commit -m "commit message" filename.ext
-* git push origin master
+* Create a new Repository
+    * git init
+* What's happening in your repo: Status
+    * git status
+* Commit your changes
+    * git commit -m "commit message" filename.ext
+* Push Your Files Up To GitHub    
+    * git push origin master
+* Set your config settings:
+    * git config --local user.name YourUserName
+    * git config --local user.email user@domain.tld
+
+## Linux Commands
+* List files:
+    * ls
+    * ls -al : lists all files and their attributes 
+* Change Directory
+    * cd newDir
+* make a new directory
+    * mkdir 
+* remove a file or directory
+    * rm -rf directoryname 
