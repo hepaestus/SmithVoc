@@ -50,9 +50,12 @@
 * What's happening in your repo: Status
     * git status
 * Commit your changes
-    * git commit -m "commit message" filename.ext
+    * git commit -m "commit one file" filename.ext
+    * git commit -a -m "commit all the files" 
 * Push Your Files Up To GitHub    
     * git push origin master
+* Pull From Your Repository
+    * git pull origin master
 * Set your config settings:
     * git config --local user.name YourUserName
     * git config --local user.email user@domain.tld
@@ -65,5 +68,6 @@
     * cd newDir
 * make a new directory
     * mkdir 
-* remove a file or directory
-    * rm -rf directoryname 
+* remove a file or directory (dangerous!) Will delete everything without warning!
+    * rm -rf directory_name 
+    * rm file_name.ext
