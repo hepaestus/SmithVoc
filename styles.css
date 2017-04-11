@@ -1,7 +1,35 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: serif;
 } 
+
 section {
     border-top: 1px dotted black;
     padding-bottom: 10px;
+}
+
+.start-date, .end-date {
+    display:inline-block;
+}
+
+.employer-name {
+    width: 70%;
+    display: inline-block;
+}
+
+.employer-location {
+    width: 29%;
+    display: inline-block;
+}
+
+.accomplishments {
+    visibility: hidden;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.fa {
+    color: #666;
 }

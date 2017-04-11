@@ -3,15 +3,33 @@
   <head>
     <title>Peter E. Olsen III Resume 2017</title>
     <meta/>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    
     <script src="https://use.fontawesome.com/6f68657b96.js"></script>
+    <script>
+       
+      $( document ).ready(function() {
+        // Handler for .ready() called.
+        console.log("Ready!");
+      });
+          
+      
+      
+      $(document).ready(function() {
+        
+        $(".see-more").click( function() {
+          console.log("click");
+          $(this).find("ul.hidden").toggleClass("hidden");
+        });
+        
+      });
+    </script>
+    
     
   </head>
   <body>
@@ -24,78 +42,93 @@
         <div class="employer">
           <div class="employer-name"><h3><span class="fa fa-coffee" aria-hidden="true"></span> Olsen Design</h3></div>
           <div class="employer-location">Northampton, MA</div>
-          <div class="start-date">2000</div>
+          <div class="start-date">2000 -</div>
           <div class="end-date">Present</div>
           <div class="job-description">
-            <div class="job-title">Developer/Systems Admin</div>
-            <ul>
-              <li>Mediawiki Architect</li>
-              <li>Spring MVC</li>
-              <li>Docker</li>
-              <li>Google Systems Administrator</li>
-              <li>Google Cloud Administrator</li>
-            </ul>
+            <div class="job-title">Computer Nerd, Developer, Systems Administrator</div>
+            <span class="see-more">See More</span>
+            <div class="accomplishments">
+              <ul class="hidden">
+                <li>Mediawiki Architect</li>
+                <li>Spring MVC</li>
+                <li>Docker</li>
+                <li>Google Systems Administrator</li>
+                <li>Google Cloud Administrator</li>
+              </ul>
+            </div>
         </div>
         
         <div class="employer">
           <div class="employer-name"><h3><span class="fa fa-rocket" aria-hidden="true"></span> Odyssey Consulting Systems Ltd.</h3></div>
           <div class="employer-location">Wakefield, MA</div>
-          <div class="start-date">March 2016</div>
+          <div class="start-date">March 2016 - </div>
           <div class="end-date">Present</div>
           <div class="job-description">
             <div class="job-title">Developer/Systems Admin</div>
-            <ul>
-              <li>Google Systems Administrator</li>
-              <li>Google Cloud Administrator</li>
-            </ul>
+            <span class="see-more">See more</span>
+            <div class="accomplishments">
+              <ul class="hidden">
+                <li>Google Systems Administrator</li>
+                <li>Google Cloud Administrator</li>
+              </ul>
+            </div>
         </div>
         
         <div class="employer">
           <div class="employer-name"><h3><span class="fa fa-bolt" aria-hidden="true"></span> ISO New England</h3></div>
           <div class="employer-location">Holyoke, MA</div>
-          <div class="start-date">February 2004</div>
+          <div class="start-date">February 2004 - </div>
           <div class="end-date">March 2016</div>
           <div class="job-description">
             <div class="job-title">Computer Scientist/Developer/Systems Admin</div>
-            <ul>
-              <li>Teamsite CMS Administrator/Developer</li>
-              <li>Mediawiki Farm Administrator</li>
-            </ul>
+            <span class="see-more">See more</span>
+            <div class="accomplishments">
+              <ul class="hidden">
+                <li>Teamsite CMS Administrator/Developer</li>
+                <li>Mediawiki Farm Administrator</li>
+              </ul>
+            </div>
         </div>
         
         <div class="employer">
           <div class="employer-name"><h3><span class="fa fa-tree" aria-hidden="true"></span> University Of New Mexico Biology Department</h3></div>
           <div class="employer-location">Albuquerque, NM</div>
-          <div class="start-date">March 2003</div>
+          <div class="start-date">March 2003 - </div>
           <div class="end-date">February 2004</div>
           <div class="job-description">
             <div class="job-title">Computer Scientist/Developer/Systems Admin</div>
-            <ul>
-              <li>Website Administrator/Developer</li>
-              <li>XML, Java, XSLT</li>
-            </ul>
+            <span class="see-more">See more</span>
+            <div class="accomplishments">
+              <ul class="hidden">
+                <li>Website Administrator/Developer</li>
+                <li>XML, Java, XSLT</li>
+              </ul>
+            </div>
         </div>  
         
         <div class="employer">
           <div class="employer-name"><h3><span class="fa fa-television" aria-hidden="true"></span> KNME-TV 5</h3></div>
           <div class="employer-location">Albuquerque, NM</div>
-          <div class="start-date">March 2003</div>
+          <div class="start-date">March 2003 - </div>
           <div class="end-date">February 2004</div>
           <div class="job-description">
             <div class="job-title">Information Systems Specialist</div>
-            <ul>
-              <li>General Computer Repair and Maintenance</li>
-              <li>Perl, Javascript, PHP</li>
-              <li>Linux, Windows, Novell</li>
-            </ul>
+            <span class="see-more">See more</span>
+            <div class="accomplishments">
+              <ul class="hidden">
+                <li>General Computer Repair and Maintenance</li>
+                <li>Perl, Javascript, PHP</li>
+                <li>Linux, Windows, Novell</li>
+              </ul>
+            </div>
         </div> 
       </div>
       </section>
       
       <section id="education">
-        <h2><span class="fa fa-university" aria-hidden="true"> Education</h2>
+        <h2><span class="fa fa-university" aria-hidden="true"></span> Education</h2>
         <div class="school">
-          <div class="school-name"><h3><span class="fa fa-graduation-cap" aria-hidden="true"> University of New Mexico Albuquerque</h3></div>
+          <div class="school-name"><h3><span class="fa fa-graduation-cap" aria-hidden="true"></span> University of New Mexico Albuquerque</h3></div>
           <div class="graduated-date">2002</div>
           <div class="degree">Bachelors of Fine Arts</div>
           <div class="field-of-study">Sculpture, Ceramics, Photography, Art History, Computer Science</div>
