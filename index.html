@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <!-- link rel="stylesheet" href="styles.css" -->
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/6f68659b96.js"></script>
+    <script src="https://use.fontawesome.com/c54d8868cf.js"></script>
     <script>
        
       $( document ).ready(function() {
@@ -21,13 +21,27 @@
         
         $(".see-more").click( function(e) {
           console.log("click");
-          $(this).find("ul.hidden").toggleClass("hidden");
+          var foo = $(this).find(".accomplishments");
+          console.log(foo);
+          foo.toggleClass("hidden");
+          //$(this).find(".accomplishments").toggleClass("hidden");
+          $(this).find("span.see-more").toggleClass("hidden");
+        });
+        
+        
+        $(".see-less").click( function(e) {
+          console.log("click" + this );
+          $(this).find(".accomplishments").toggleClass("hidden");
+          $(this).find(".span.see-more").toggleClass("hidden");
         });
     
 
       });
     </script>
     <style>
+      body {
+        padding-bottom: 50px;
+      }
       td { border: 1px solid black; }
       styles {
         
@@ -51,15 +65,17 @@
           <div class="end-date">Present</div>
           <div class="job-description">
             <div class="job-title">Computer Nerd, Developer, Systems Administrator</div>
-            <span class="see-more">See More</span>
-            <div class="accomplishments">
-              <ul class="hidden">
-                <li>Mediawiki Architect</li>
-                <li>Spring MVC</li>
-                <li>Docker</li>
-                <li>Google Systems Administrator</li>
-                <li>Google Cloud Administrator</li>
-              </ul>
+            <div class="see-more"><span class="see-more">See More</span>
+              <div class="accomplishments hidden">
+                <ul>
+                  <li>Mediawiki Architect</li>
+                  <li>Spring MVC</li>
+                  <li>Docker</li>
+                  <li>Google Systems Administrator</li>
+                  <li>Google Cloud Administrator</li>
+                </ul>
+                <span class="see-less">see less</span>
+              </div>
             </div>
         </div>
         
@@ -70,12 +86,14 @@
           <div class="end-date">Present</div>
           <div class="job-description">
             <div class="job-title">Developer/Systems Admin</div>
-            <span class="see-more">See more</span>
-            <div class="accomplishments">
-              <ul class="hidden">
-                <li>Google Systems Administrator</li>
-                <li>Google Cloud Administrator</li>
-              </ul>
+            <div class="see-more"><span class="see-more">See more</span>
+              <div class="accomplishments hidden">
+                <ul>
+                  <li>Google Systems Administrator</li>
+                  <li>Google Cloud Administrator</li>
+                </ul>
+                <span class="see-less">see less</span>
+              </div>
             </div>
         </div>
         
@@ -86,12 +104,16 @@
           <div class="end-date">March 2016</div>
           <div class="job-description">
             <div class="job-title">Computer Scientist/Developer/Systems Admin</div>
-            <span class="see-more">See more</span>
-            <div class="accomplishments">
-              <ul class="hidden">
-                <li>Teamsite CMS Administrator/Developer</li>
-                <li>Mediawiki Farm Administrator</li>
-              </ul>
+            <div class="see-more"><span class="see-more">See more</span>
+              <div class="accomplishments hidden">
+                <ul>
+                  <li>Teamsite CMS Administrator/Developer</li>
+                  <li>Mediawiki Farm Administrator</li>
+                  <li>Java, Perl, PHP, HTML5, CSS, Javascript, Jquery</li>
+                  <li>Linux, Bash, Tomcat, JBoss, Weblogic</li>
+                </ul>
+                <span class="see-less">see less</span>
+              </div>
             </div>
         </div>
         
@@ -102,12 +124,14 @@
           <div class="end-date">February 2004</div>
           <div class="job-description">
             <div class="job-title">Computer Scientist/Developer/Systems Admin</div>
-            <span class="see-more">See more</span>
-            <div class="accomplishments">
-              <ul class="hidden">
-                <li>Website Administrator/Developer</li>
-                <li>XML, Java, XSLT</li>
-              </ul>
+            <div class="see-more"><span class="see-more">See more</span>
+              <div class="accomplishments hidden">
+                <ul>
+                  <li>Website Administrator/Developer</li>
+                  <li>XML, Java, XSLT</li>
+                </ul>
+                <span class="see-less">see less</span>
+              </div>
             </div>
         </div>  
         
@@ -118,13 +142,15 @@
           <div class="end-date">February 2004</div>
           <div class="job-description">
             <div class="job-title">Information Systems Specialist</div>
-            <span class="see-more">See more</span>
-            <div class="accomplishments">
-              <ul class="hidden">
-                <li>General Computer Repair and Maintenance</li>
-                <li>Perl, Javascript, PHP</li>
-                <li>Linux, Windows, Novell</li>
-              </ul>
+            <div class="see-more"><span class="see-more">See more</span>
+              <div class="accomplishments hidden">
+                <ul>
+                  <li>General Computer Repair and Maintenance</li>
+                  <li>Perl, Javascript, PHP, bash</li>
+                  <li>Linux, Windows, Novell</li>
+                </ul>
+                <span class="see-less">see less</span>
+              </div>
             </div>
         </div> 
       </div>
@@ -157,8 +183,8 @@
             <div class="postal-code">01060</div > 
             <div class="country-name">USA</div > 
           </div> <!-- /.adr -->
-          <div class="tel">Tel: +1 978 761 3474</div> 
-          <div class="email">Email: peteolsen@gmail.com</div> 
+          <div class="tel"><span class="fa fa-phone" aria-hidden="true"></span> +1 978 761 3474</div> 
+          <div class="email"><span class="fa fa-envelope" aria-hidden="true"></span> peteolsen@gmail.com</div> 
         </div><!-- /.vcard -->
       </section>
       
